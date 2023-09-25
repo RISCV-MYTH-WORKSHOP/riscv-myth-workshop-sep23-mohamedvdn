@@ -72,7 +72,7 @@ Under the risc-v toolchain,
     
  Test Case for the above commands [(unsignedhighest)](https://github.com/RISCV-MYTH-WORKSHOP/riscv-myth-workshop-sep23-mohamedvdn/blob/master/day%201/unsignedhighest.c)
 
-  * Below image shows the disassembled file `sum1ton.o` with `main` function highlighted.
+  * Below image shows the disassembled file `unsignedhighest.o` with `main` function highlighted.
 
     ![disassemble](https://github.com/RISCV-MYTH-WORKSHOP/riscv-myth-workshop-sep23-mohamedvdn/blob/c4ebbf1e95c319f836092005095c8ac99d2c7e03/day%201/lab_tutorial_2.png)
     
@@ -83,13 +83,13 @@ An Application Binary Interface is a set of rules enforced by the operating syst
 So, it is system call interface used by the application program to access the registers specific to architecture. Overhere the architecture is RISC-V, so to access 32 registers of RISC-V below is the table which shows the calling convention (ABI name) given to registers for the application programmer to use.
 [(Image source)](https://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf)
 
-![calling_convention](https://github.com/kuby1412/RISC-V-MYTH-Workshop/blob/master/Documentation/ABI.png)
+![calling_convention](https://github.com/RISCV-MYTH-WORKSHOP/riscv-myth-workshop-sep23-mohamedvdn/blob/master/day%201/ABI.png)
 
 # RISC-V Block Diagram
 
-![RISC-V](https://github.com/kuby1412/RISC-V-MYTH-Workshop/blob/master/Documentation/Block%20Diagram.PNG)
+![RISC-V](https://github.com/RISCV-MYTH-WORKSHOP/riscv-myth-workshop-sep23-mohamedvdn/blob/master/day%201/Block%20Diagram.png)
 
-![RISC-V](https://github.com/kuby1412/RISC-V-MYTH-Workshop/blob/master/Documentation/Block%20Diagram%20v2.PNG)
+![RISC-V](https://github.com/RISCV-MYTH-WORKSHOP/riscv-myth-workshop-sep23-mohamedvdn/blob/master/day%201/Block%20Diagram%20v2.png)
 
 # Digital Logic with TL-Verilog and Makerchip
 
